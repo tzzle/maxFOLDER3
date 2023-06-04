@@ -1,0 +1,51 @@
+/*CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #27374D;
+}
+
+.container {
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#bckgrndClr {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    background: #526D82;
+}
+
+/*CSS*/
+.bttnCont {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#buttonOne {
+    padding: 3px;
+    background: #116D6E;
+    border: transparent;
+    border-radius: 5px;
+}
+
+#buttonTwo {
+    padding: 3px;
+    background: #F2D8D8;
+    border: transparent;
+    border-radius: 5px;
+}

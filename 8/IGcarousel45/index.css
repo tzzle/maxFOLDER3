@@ -1,0 +1,23 @@
+/*CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #27374D;
+}
+/*css*/
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bttnCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
